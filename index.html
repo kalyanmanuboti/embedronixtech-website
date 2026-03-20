@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedronix Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logotab.png">
+    <link rel="shortcut icon" href="logotab.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-left">
+        <img src="logo.png" class="logo-img" alt="Embedronix Logo">
+        <div class="logo-text-group">
+            <span class="logo-text">Embedronix</span>
+            <span class="logo-text">Technologies</span>
+        </div>
+    </div>
+
+    <ul class="nav-links">
+        <li onclick="scrollToSection('home')">Home</li>
+        <li onclick="scrollToSection('about')">About</li>
+        <li onclick="scrollToSection('services')">Services</li>
+        <li onclick="scrollToSection('contact-section')">Contact</li>
+        <li onclick="openCareerForm()">Careers</li>
+    </ul>
+
+    <div class="nav-right">
+        <button class="quote-btn" onclick="openQuoteForm()">Request Quote</button>
+
+        <div class="social-icons">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="mailto:info@embedronixtech.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <h1>Embedronix Technologies</h1>
+    <p>Experts in Embedded Systems • IoT • Firmware Development</p>
+    <button class="btn" onclick="openContactForm()">GET IN TOUCH</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>
+            Embedronix Technologies is an innovative embedded systems and electronics solutions company
+            focused on delivering reliable, smart, and industry-oriented technology services.
+        </p>
+        <p>
+            We specialize in embedded software development, microcontroller-based product design,
+            IoT solutions, PCB design support, and real-time system development.
+        </p>
+        <p>
+            Our mission is to help students, startups, and industries transform ideas into practical
+            electronic products with modern design, efficient coding, and quality engineering support.
+        </p>
+        <p>
+            We are committed to innovation, technical excellence, and customer satisfaction in every project.
+        </p>
+        <p>
+            At Embedronix Technologies, we believe in building solutions that are not only powerful
+            but also scalable, efficient, and future-ready.
+        </p>
+        <p>
+            Our team works with passion, creativity, and strong technical skills to deliver quality results.
+        </p>
+        <p>
+            We support embedded product development from idea stage to implementation and testing.
+        </p>
+        <p>
+            Our focus areas include firmware development, hardware support, debugging, and smart IoT integration.
+        </p>
+        <p>
+            We also provide practical training and technical guidance for learners and future engineers.
+        </p>
+        <p>
+            With a vision for innovation and growth, Embedronix Technologies aims to become a trusted name
+            in the embedded systems and electronics domain.
+        </p>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Embedded Systems Development</h3>
+            <p>Design and development of firmware and software for microcontroller-based applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>IoT Solutions</h3>
+            <p>Smart device integration, sensor-based monitoring, and cloud-connected embedded applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>PCB & Hardware Support</h3>
+            <p>Support for circuit design, PCB development, interfacing, and hardware prototyping.</p>
+        </div>
+
+        <div class="card">
+            <h3>Testing & Debugging</h3>
+            <p>Efficient troubleshooting, validation, and testing support for embedded products and systems.</p>
+        </div>
+
+        <div class="card">
+            <h3>Technical Training</h3>
+            <p>Practical training and project guidance in C, Embedded C, microcontrollers, and electronics.</p>
+        </div>
+
+        <div class="card">
+            <h3>Product Development Support</h3>
+            <p>End-to-end support from concept design to prototype development for innovative products.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact-section" class="contact-section">
+    <h2 style="color: white; margin-bottom: 25px;">Contact Us</h2>
+    <div class="contact-box">
+
+        <div class="contact-item brand-item">
+            <div class="contact-brand">
+                <img src="logo.png" alt="Embedronix Logo" class="contact-brand-logo">
+                <div class="contact-brand-text">
+                    <span>Embedronix</span>
+                    <span>Technologies</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+91-98765 43210</p>
+        </div>
+
+        <div class="contact-item">
+            <h3>Email Now</h3>
+            <p>info@embedronix.com</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <p>Product Reviews</p>
+            <p>Question & Answer</p>
+            <p>Featured Reviews Page</p>
+            <p>Request Reviews Email</p>
+            <p>Reviews Transfer</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resource</h3>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Docs</p>
+            <p>Pricing</p>
+            <p>Contact Us</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Follow Us</h3>
+            <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
+            <p><i class="fab fa-x-twitter"></i> Twitter</p>
+            <p><i class="fab fa-facebook-f"></i> Facebook</p>
+            <p><i class="fab fa-youtube"></i> YouTube</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <span>Privacy Policy</span>
+            <span>Refund Policy</span>
+            <span>Terms & Conditions</span>
+        </div>
+        <p class="typing-text">© 2026 Embedronix Technologies. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- ===== 1. GET IN TOUCH ===== -->
+<div id="contactForm" class="form-popup">
+    <div class="form-container">
+        <span class="close-btn" onclick="closeContactForm()">×</span>
+        <h2>Get in Touch</h2>
+
+        <form action="https://formsubmit.co/embedronix@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Full Name *" required>
+            <input type="email" name="email" placeholder="Email *" required>
+            <textarea name="message" placeholder="Message *" required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- ===== 2. REQUEST QUOTE ===== -->
+<div id="quoteForm" class="form-popup">
+    <div class="form-container">
+        <span class="close-btn" onclick="closeQuoteForm()">×</span>
+        <h2>Request Quote</h2>
+
+        <form action="https://formsubmit.co/embedronix@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Full Name *" required>
+            <input type="email" name="email" placeholder="Email *" required>
+            <input type="tel" name="phone" placeholder="Phone *" required>
+            <input type="text" name="company" placeholder="Company Name">
+            <textarea name="requirement" placeholder="Project Requirement *" required></textarea>
+
+            <button type="submit" class="submit-btn">Request Quote</button>
+        </form>
+    </div>
+</div>
+
+<!-- ===== 3. CAREERS ===== -->
+<div id="careerForm" class="form-popup">
+    <div class="form-container">
+        <span class="close-btn" onclick="closeCareerForm()">×</span>
+        <h2>Apply for Job</h2>
+
+        <form action="https://formsubmit.co/embedronix@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Full Name *" required>
+            <input type="email" name="email" placeholder="Email *" required>
+            <input type="tel" name="phone" placeholder="Phone *" required>
+
+            <select name="position" required>
+                <option value="">Select Position *</option>
+                <option>Embedded Engineer</option>
+                <option>Firmware Developer</option>
+                <option>IoT Engineer</option>
+                <option>Intern</option>
+            </select>
+
+            <input type="text" name="qualification" placeholder="Qualification *" required>
+            <input type="text" name="experience" placeholder="Experience *" required>
+
+            <button type="submit" class="submit-btn">Apply Now</button>
+        </form>
+    </div>
+</div>
+
+<!-- JS -->
+<script>
+function openContactForm() {
+    document.getElementById("contactForm").style.display = "flex";
+}
+function closeContactForm() {
+    document.getElementById("contactForm").style.display = "none";
+}
+
+function openQuoteForm() {
+    document.getElementById("quoteForm").style.display = "flex";
+}
+function closeQuoteForm() {
+    document.getElementById("quoteForm").style.display = "none";
+}
+
+function openCareerForm() {
+    document.getElementById("careerForm").style.display = "flex";
+}
+function closeCareerForm() {
+    document.getElementById("careerForm").style.display = "none";
+}
+
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+document.querySelectorAll("section, .card, .footer-col, .contact-item, .about-content").forEach((el) => {
+    observer.observe(el);
+});
+</script>
+<!-- About Section Animation -->
+<script>
+const aboutContent = document.querySelector(".about-content");
+
+aboutContent.addEventListener("mousemove", (e) => {
+    const rect = aboutContent.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const moveX = (x - rect.width / 2) / 25;
+    const moveY = (y - rect.height / 2) / 25;
+
+    aboutContent.style.transform = `scale(1.03) rotateX(${-moveY}deg) rotateY(${moveX}deg)`;
+});
+
+aboutContent.addEventListener("mouseleave", () => {
+    aboutContent.style.transform = "";
+});
+</script>
+<!-- Services Cards Animation -->
+<script>
+const serviceCards = document.querySelectorAll("#services .card");
+
+serviceCards.forEach((card) => {
+    card.addEventListener("mousemove", (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const moveX = (x - rect.width / 2) / 20;
+        const moveY = (y - rect.height / 2) / 20;
+
+        card.style.transform = `scale(1.05) rotateX(${-moveY}deg) rotateY(${moveX}deg)`;
+    });
+
+    card.addEventListener("mouseleave", () => {
+        card.style.transform = "";
+    });
+});
+</script>
+</body>
+</html>
